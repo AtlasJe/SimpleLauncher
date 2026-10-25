@@ -2,11 +2,11 @@
 
 An open-source Minecraft launcher for Windows, focused on managing profiles, versions, mods, modpacks, skins, and backups.
 
-## Estado
+## Status
 
 First public release, currently in development. The current interface uses Python, CustomTkinter, and `minecraft-launcher-lib`. The next major step is separating the launcher logic to support a future UI migration.
 
-## Funciones actuales
+## Current features
 
 - Minecraft version installation and launching.
 - Profiles and mod slots.
@@ -16,7 +16,7 @@ First public release, currently in development. The current interface uses Pytho
 - Skin and screenshot management.
 - Adaptive themes, dynamic colors, and multiple languages.
 
-## Estructura
+## Structure
 
 ```text
 source/                  Current source code
@@ -28,7 +28,7 @@ MATERIAL3_PLAN.md        Visual design plan
 
 Executables, builds, working backups, and generated files are excluded from version control through `.gitignore`.
 
-## Desarrollo local
+## Local development
 
 Requires Python 3.12 or compatible and Java to run Minecraft.
 
@@ -40,15 +40,15 @@ python -m pip install -r requirements.txt
 python launcher_gui.pyw
 ```
 
-## Nota legal
+## Legal note
 
 Minecraft is owned by Mojang/Microsoft. Modrinth, Fabric, and the included dependencies retain their own trademarks and licenses. This project is not officially affiliated with them. Review third-party licenses before redistributing a build.
 
-## Contribuir
+## Contributing
 
 Bug reports, feature requests, and improvements are welcome. For major changes, open an issue describing the problem or proposal first. Do not include executables, builds, personal backups, caches, or Minecraft data.
 
-## Licencia
+## License
 
 The project code is distributed under the MIT License. Third-party resources may have different licenses.
 
