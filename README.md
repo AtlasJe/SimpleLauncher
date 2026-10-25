@@ -1,36 +1,36 @@
 # Simple Launcher
 
-Launcher de Minecraft para Windows, enfocado en administrar perfiles, versiones, mods, modpacks, skins y copias de seguridad.
+An open-source Minecraft launcher for Windows, focused on managing profiles, versions, mods, modpacks, skins, and backups.
 
 ## Estado
 
-Primera publicación pública, en desarrollo. La interfaz actual usa Python, CustomTkinter y `minecraft-launcher-lib`. El siguiente trabajo importante es separar la lógica del launcher para facilitar una futura migración visual.
+First public release, currently in development. The current interface uses Python, CustomTkinter, and `minecraft-launcher-lib`. The next major step is separating the launcher logic to support a future UI migration.
 
 ## Funciones actuales
 
-- Instalación y lanzamiento de versiones de Minecraft.
-- Perfiles y slots de mods.
-- Soporte para Fabric.
-- Exploración de mods mediante Modrinth.
-- Importación y exportación de backups.
-- Gestión de skins y capturas.
-- Temas adaptables, color dinámico y varios idiomas.
+- Minecraft version installation and launching.
+- Profiles and mod slots.
+- Fabric support.
+- Mod exploration through Modrinth.
+- Backup import and export.
+- Skin and screenshot management.
+- Adaptive themes, dynamic colors, and multiple languages.
 
 ## Estructura
 
 ```text
-source/                   Código fuente actual
-resources/               Fuentes, iconos, sonidos y recursos
-builds/                  Compilaciones locales
-releases/                Archivos de distribución locales
-MATERIAL3_PLAN.md         Plan visual
+source/                  Current source code
+resources/              Fonts, icons, sounds, and other resources
+builds/                 Local builds
+releases/               Local distribution files
+MATERIAL3_PLAN.md        Visual design plan
 ```
 
-Los ejecutables, builds, backups de trabajo y archivos generados quedan fuera del control de versiones mediante `.gitignore`.
+Executables, builds, working backups, and generated files are excluded from version control through `.gitignore`.
 
 ## Desarrollo local
 
-Requiere Python 3.12 o compatible y Java para ejecutar Minecraft.
+Requires Python 3.12 or compatible and Java to run Minecraft.
 
 ```powershell
 cd source
@@ -42,13 +42,13 @@ python launcher_gui.pyw
 
 ## Nota legal
 
-Minecraft es propiedad de Mojang/Microsoft. Modrinth, Fabric y las dependencias utilizadas conservan sus propias marcas y licencias. Este proyecto no está afiliado oficialmente con ellos. Revisa las licencias de los recursos antes de redistribuir una compilación.
+Minecraft is owned by Mojang/Microsoft. Modrinth, Fabric, and the included dependencies retain their own trademarks and licenses. This project is not officially affiliated with them. Review third-party licenses before redistributing a build.
 
 ## Contribuir
 
-Las propuestas de cambios, errores y mejoras son bienvenidas. Para cambios grandes, abre primero un issue describiendo el problema o la propuesta. No incluyas ejecutables, builds, backups personales, cachés ni datos de Minecraft.
+Bug reports, feature requests, and improvements are welcome. For major changes, open an issue describing the problem or proposal first. Do not include executables, builds, personal backups, caches, or Minecraft data.
 
 ## Licencia
 
-El código de este proyecto se distribuye bajo la licencia MIT. Los recursos de terceros pueden tener licencias distintas.
+The project code is distributed under the MIT License. Third-party resources may have different licenses.
 
