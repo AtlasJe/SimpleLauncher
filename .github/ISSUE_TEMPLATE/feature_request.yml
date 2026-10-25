@@ -1,0 +1,21 @@
+name: Solicitud de función
+description: Propón una mejora para el launcher
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problema o necesidad
+      description: ¿Qué problema resolvería esta función?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Propuesta
+      description: Describe cómo debería funcionar.
+    validations:
+      required: true
+

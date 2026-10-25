@@ -1,0 +1,31 @@
+name: Reporte de error
+description: Reporta un problema reproducible del launcher
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Descripción
+      description: Explica qué ocurrió y qué esperabas que ocurriera.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Pasos para reproducir
+      description: Indica los pasos mínimos para ver el problema.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Versión del launcher
+      placeholder: v3.0
+  - type: textarea
+    id: logs
+    attributes:
+      label: Registros
+      description: No incluyas contraseñas, tokens ni rutas privadas.
+

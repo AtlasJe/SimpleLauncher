@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Generated artifacts
+build/
+dist/
+*.exe
+*.msi
+*.pkg
+*.toc
+*.pyz
+*.zip
+**/builds/
+**/releases/
+**/backups/
+.work/
+.local-history/
+
+# Local launcher data
+*.log
+*.tmp
+*.cache
+settings.json
+versions_cache.json
+launcher_config.txt
+
+# IDE and OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets
+.env
+.env.*
+!.env.example
+
